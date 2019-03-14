@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "jsx-a11y/label-has-for": false,
+        "jsx-a11y/click-events-have-key-events": false,
+        "jsx-a11y/no-static-element-interactions": false,
+        "jsx-a11y/label-has-associated-control": [ "error", {
+            "assert": "htmlFor"
+        }]
+    }
+}

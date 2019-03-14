@@ -1,0 +1,13 @@
+@import "material-components";
+@import "@drewbot/sass-flexbox-grid/public/sass-flexbox/scss/main";
+
+body {
+    margin: 0;
+}
+
+.todo-form {
+    &__submit {
+        margin-left: 1rem;
+        height: 56px;
+    }
+}
